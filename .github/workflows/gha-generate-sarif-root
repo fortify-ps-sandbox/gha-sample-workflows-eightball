@@ -1,0 +1,11 @@
+name: Test root action
+
+on: [workflow_dispatch]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: fortify-ps-sandbox/gha-generate-sarif@main
