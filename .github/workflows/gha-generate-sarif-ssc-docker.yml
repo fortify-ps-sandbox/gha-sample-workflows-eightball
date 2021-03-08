@@ -8,7 +8,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - uses: fortify-ps-sandbox/gha-generate-sarif@main
+      - uses: fortify-ps-sandbox/gha-generate-sarif/ssc/docker@main
         with:
           ssc_base_url: ${{ secrets.SSC_EIGHTBALL_BASE_URL }}
           ssc_auth_token: ${{ secrets.SSC_EIGHTBALL_AUTHTOKEN_DECODED }}
