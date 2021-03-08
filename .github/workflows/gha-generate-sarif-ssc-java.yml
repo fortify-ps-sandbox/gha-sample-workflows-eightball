@@ -1,4 +1,4 @@
-name: gha-generate-sarif/ssc/docker
+name: gha-generate-sarif/ssc/java
 
 on: [workflow_dispatch]
 

@@ -1,4 +1,4 @@
-name: gha-generate-sarif/fod/docker
+name: gha-generate-sarif/fod/java
 
 on: [workflow_dispatch]
 
